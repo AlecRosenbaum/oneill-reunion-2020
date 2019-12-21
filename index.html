@@ -149,6 +149,43 @@
                 My venmo handle is @Lana-Malia
             </p>
           </div>
+            <style>
+                #accordion .card-header:after {
+                    float: left;
+
+                    content: "";
+                    border-right:5px solid black;
+                    border-bottom:5px solid black;
+                    width:10px;
+                    height:10px;
+                    transform: rotate(45deg);
+                    margin:8px;
+                }
+                #accordion .card-header.collapsed:after {
+                    transform: rotate(-45deg);
+                }
+            </style>
+          <div class="container">
+            <div id="accordion">
+              <div class="card mb-0">
+              <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
+                <a class="card-title">Who's Coming?</a>
+              </div>
+              <div id="collapseOne" class="card-body collapse" data-parent="#accordion">
+                <p>So far we're gotten YES RSVPs from:<p>
+                <ul>
+                  <li>Shelia &amp; Bill, Lana &amp; Alec, Rhiannon, Jessy</li>
+                  <li>Geine &amp; Bill, Shannon, Mikey, Andy &amp; Michelle</li>
+                  <li>Joan &amp; Brian, Krissy &amp; Tom, Kaitlyn &amp; Mike, Kassie, Lyla</li>
+                  <li>Lynn &amp; Tom, Nick, Megan &amp; Jacob</li>
+                  <li>Drew &amp; Anita, Devin &amp; Victor, Clay</li>
+                  <li>John &amp; Katelynn, Shane, Lily</li>
+                  <li>Trisha</li>
+                  <li>Joe O'Neill (if possible), Elizabeth &amp; Mark, Ryu, Arianna</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
 
         <hr class="divider">
